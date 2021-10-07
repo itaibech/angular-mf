@@ -3,7 +3,7 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 
 module.exports = {
   output: {
-    publicPath: "http://127.0.0.1:8080/mdmf-profile/",
+    publicPath: "/mdmf-profile/",
     uniqueName: "mdmfprofile",
   },
   optimization: {
