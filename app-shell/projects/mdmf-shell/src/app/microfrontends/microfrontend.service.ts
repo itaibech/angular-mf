@@ -29,7 +29,7 @@ export class MicrofrontendService {
     return [
       {
         // For Loading
-        remoteEntry: "http://localhost:4201/remoteEntry.js",
+        remoteEntry: "mdmf-profile/remoteEntry.js",
         remoteName: "profile",
         exposedModule: "ProfileModule",
 

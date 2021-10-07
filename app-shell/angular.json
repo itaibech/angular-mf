@@ -187,11 +187,6 @@
         },
         "serve": {
           "builder": "ngx-build-plus:dev-server",
-          "options": {
-            "browserTarget": "mdmf-profile:build",
-            "extraWebpackConfig": "projects/mdmf-profile/webpack.config.js",
-            "port": 4201
-          },
           "configurations": {
             "production": {
               "browserTarget": "mdmf-profile:build:production",

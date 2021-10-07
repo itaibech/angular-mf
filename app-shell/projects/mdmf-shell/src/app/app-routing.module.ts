@@ -11,7 +11,7 @@ const routes: Routes = [
     loadChildren: () =>
       loadRemoteModule({
         remoteName: "profile",
-        remoteEntry: "http://localhost:4201/remoteEntry.js",
+        remoteEntry: "mdmf-profile/remoteEntry.js",
         exposedModule: "ProfileModule",
       }).then((m) => m.ProfileModule),
   },
